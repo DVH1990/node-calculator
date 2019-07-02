@@ -9,7 +9,7 @@ program
 program
 .command("calc <action> <left> <right>")
 .alias('c')
-.description('Multiply two numbers')
+.description('Multiply or dividing two numbers')
 .action((action, left, right) => console.log(calc.performCalculation(action, left, right)))
 
 program.parse(process.argv)
