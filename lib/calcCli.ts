@@ -8,7 +8,7 @@ program
 
 program
 .command("calc <action> <left> <right>")
-.alias('m')
+.alias('c')
 .description('Multiply two numbers')
 .action((action, left, right) => console.log(calc.performCalculation(action, left, right)))
 
