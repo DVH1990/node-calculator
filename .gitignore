@@ -1,0 +1,5 @@
+# Contents of dist directory
+dist/
+
+# Dependency directories
+node_modules/
